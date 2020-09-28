@@ -1,0 +1,9 @@
+*.ico
+*.jpg
+*.log
+*.png
+*.txt
+.cache
+.git
+node_modules
+public
