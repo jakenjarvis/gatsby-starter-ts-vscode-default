@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "esnext",
     "strict": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
