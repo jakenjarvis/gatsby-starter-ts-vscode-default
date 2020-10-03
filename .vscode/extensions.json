@@ -2,9 +2,6 @@
   "recommendations": [
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
-    "oderwat.indent-rainbow",
-    "coenraads.bracket-pair-colorizer-2",
-    "wmaurer.change-case",
     "msjsdiag.debugger-for-chrome",
     "stylelint.vscode-stylelint"
   ]
