@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "target": "esnext",
+    "module": "esnext",
     "strict": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
     "jsx": "preserve",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node"
+    "experimentalDecorators": true
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"]
 }

@@ -1,3 +1,69 @@
+# gatsby-starter-ts-vscode-default
+
+A simple starter to get up and developing quickly with Gatsby using TypeScript on vscode.
+
+# Policy
+
+- Use TypeScript.
+- Use ESLint. (Use eslint-config-react-app according to [Gatsby's Using ESLint](https://www.gatsbyjs.com/docs/eslint/#how-to-use-eslint))
+- Use stylelint. (minimum configuration)
+- Use prettier. As recommended by prettier, it does not use prettier with the ESLint plugin. See [prettier's Integrating with Linters](https://prettier.io/docs/en/integrating-with-linters.html) for more information.
+- Include the settings required for development with vscode. (If you don't need to set vscode, just delete the `.vscode` folder)
+- This starter uses official recommendations wherever possible and does not include personal preferences.
+- This starter is forked from [gatsbyjs/gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default) and implemented in TypeScript.
+
+If you use styled-components, Emotion, Tailwind, etc., you need to add it.
+
+# Referenced
+
+## Gatsby
+
+- https://www.gatsbyjs.com/docs/eslint/#how-to-use-eslint
+- https://github.com/gatsbyjs/gatsby/issues/15971
+
+## create-react-app
+
+- https://create-react-app.dev/docs/setting-up-your-editor/
+- https://github.com/facebook/create-react-app/blob/master/docusaurus/docs/adding-typescript.md
+- https://github.com/facebook/create-react-app/tree/master/packages/eslint-config-react-app#usage-outside-of-create-react-app
+- https://github.com/facebook/create-react-app/blob/master/packages/eslint-config-react-app/base.js
+- https://github.com/facebook/create-react-app/blob/master/packages/eslint-config-react-app/index.js
+
+## typescript-eslint
+
+- https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md
+- https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md
+
+## prettier
+
+- https://prettier.io/docs/en/integrating-with-linters.html
+
+## ESLint
+
+- https://eslint.org/docs/user-guide/configuring
+
+## TypeScript TSConfig
+
+- https://www.typescriptlang.org/tsconfig
+- https://github.com/typescript-cheatsheets/react#troubleshooting-handbook-tsconfigjson
+
+## Referenced Japanese articles, etc.
+
+- https://blog.ojisan.io/prettier-eslint-cli
+- https://tombomemo.com/gatsby-install-settings/
+
+## Discussion in Japanese about ESLint and eslint-config-react-app
+
+- https://github.com/sadnessOjisan/blog.ojisan.io/issues/116
+
+Thanks! [@sadnessOjisan](https://github.com/sadnessOjisan)
+
+---
+
+---
+
+---
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">

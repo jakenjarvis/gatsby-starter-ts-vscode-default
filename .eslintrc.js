@@ -2,11 +2,23 @@ module.exports = {
   globals: {
     __PATH_PREFIX__: true,
   },
-  env: {
-    browser: true,
-    es2020: true,
-    node: true,
+  parserOptions: {
+    tsconfigRootDir: __dirname,
+    project: ["./tsconfig.json"],
   },
-  extends: ["react-app", "plugin:jsx-a11y/recommended"],
-  plugins: ["jsx-a11y"]
-}
+  extends: [
+    "eslint:recommended",
+    //"plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "react-app",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    //"plugin:jest/recommended", // When using jest
+    //"react-app/jest", // When using jest
+  ],
+  plugins: [
+    "@typescript-eslint",
+    //"jest" // When using jest
+  ],
+};
