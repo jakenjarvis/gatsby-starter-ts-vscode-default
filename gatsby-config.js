@@ -28,14 +28,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-typescript`,
-      options: {
-        isTSX: true, // defaults to false
-        jsxPragma: `React`, // defaults to "React"
-        allExtensions: true, // defaults to false
-      },
-    },
-    {
       resolve: "@danbruegge/gatsby-plugin-stylelint",
       options: { files: ["src/**/*.{js,jsx,ts,tsx,css,less,sass,scss}"] },
     },
