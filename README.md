@@ -8,9 +8,11 @@ A simple starter to get up and developing quickly with Gatsby using TypeScript o
 - Use ESLint. (Use eslint-config-react-app according to [Gatsby's Using ESLint](https://www.gatsbyjs.com/docs/eslint/#how-to-use-eslint))
 - Use stylelint. (minimum configuration)
 - Use prettier. As recommended by prettier, it does not use prettier with the ESLint plugin. See [prettier's Integrating with Linters](https://prettier.io/docs/en/integrating-with-linters.html) for more information.
+- Use Jest. (Use jest-preset-gatsby. Using this able to simply implement the official website configuration)
 - Include the settings required for development with vscode. (If you don't need to set vscode, just delete the `.vscode` folder)
 - This starter uses official recommendations wherever possible and does not include personal preferences.
 - This starter is forked from [gatsbyjs/gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default) and implemented in TypeScript.
+- This starter keeps webpack and Babel as unaware as possible and leaves them to Gatsby. The ideal is to make them look like they aren't using them.
 
 If you use styled-components, Emotion, Tailwind, etc., you need to add it.
 
@@ -46,6 +48,11 @@ If you use styled-components, Emotion, Tailwind, etc., you need to add it.
 
 - https://www.typescriptlang.org/tsconfig
 - https://github.com/typescript-cheatsheets/react#troubleshooting-handbook-tsconfigjson
+
+## Jest
+
+- https://www.gatsbyjs.com/docs/unit-testing/
+- https://github.com/keplersj/jest-preset-gatsby
 
 ## Referenced Japanese articles, etc.
 
