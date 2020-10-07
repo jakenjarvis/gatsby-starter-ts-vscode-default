@@ -4,17 +4,34 @@ A simple starter to get up and developing quickly with Gatsby using TypeScript o
 
 # Policy
 
-- Use TypeScript.
-- Use ESLint. (Use eslint-config-react-app according to [Gatsby's Using ESLint](https://www.gatsbyjs.com/docs/eslint/#how-to-use-eslint))
-- Use stylelint. (minimum configuration)
-- Use prettier. As recommended by prettier, it does not use prettier with the ESLint plugin. See [prettier's Integrating with Linters](https://prettier.io/docs/en/integrating-with-linters.html) for more information.
-- Use Jest. (Use jest-preset-gatsby. Using this able to simply implement the official website configuration)
-- Include the settings required for development with vscode. (If you don't need to set vscode, just delete the `.vscode` folder)
-- This starter uses official recommendations wherever possible and does not include personal preferences.
 - This starter is forked from [gatsbyjs/gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default) and implemented in TypeScript.
-- This starter keeps webpack and Babel as unaware as possible and leaves them to Gatsby. The ideal is to make them look like they aren't using them.
+- This starter provides a minimal configuration and users will add what they need later. (For beginners, it's easy to add but difficult to remove)
+- This starter uses official recommendations wherever possible and does not include personal preferences.
+- This starter keeps webpack and Babel as unaware as possible and leaves them to Gatsby. Agree with the [thought of Create React App](https://github.com/facebook/create-react-app#get-started-immediately). The ideal is to make them look like they aren't using them.
+- This starter does not use prettier with the ESLint plugin. Agree with "**generally not recommended**" listed in prettier's [Integrating with Linters](https://prettier.io/docs/en/integrating-with-linters.html#notes). If you want to do these things in relation, you should leave it to CI.
+- Include the settings required for development with vscode. (If you don't need to set vscode, just delete the `.vscode` folder)
 
-If you use styled-components, Emotion, Tailwind, etc., you need to add it.
+# Features
+
+- Use TypeScript.
+- Use ESLint. (Use [eslint-config-react-app](https://github.com/facebook/create-react-app/tree/master/packages/eslint-config-react-app) according to [Gatsby's Using ESLint](https://www.gatsbyjs.com/docs/eslint/#how-to-use-eslint))
+- Use stylelint. (minimum configuration: If you use styled-components, Emotion, Tailwind, etc., you need to add it)
+- Use prettier. (Both execution on the editor and execution by the command are compatible)
+- Use Jest. (Use [jest-preset-gatsby](https://github.com/keplersj/jest-preset-gatsby). Using this able to simply implement the official website configuration)
+- Use vscode and its extensions.
+  - [Prettier - Code formatter (esbenp.prettier-vscode)](https://github.com/prettier/prettier-vscode.git)
+  - [ESLint (dbaeumer.vscode-eslint)](https://github.com/Microsoft/vscode-eslint)
+  - [Debugger for Chrome (msjsdiag.debugger-for-chrome)](https://github.com/Microsoft/vscode-chrome-debug)
+  - [stylelint (stylelint.vscode-stylelint)](https://github.com/stylelint/vscode-stylelint)
+  - [Jest (orta.vscode-jest)](https://github.com/jest-community/vscode-jest)
+  - [Jest Runner (firsttris.vscode-jest-runner)](https://github.com/firsttris/vscode-jest-runner)
+
+# Quick start
+
+```shell
+# create a new Gatsby site using the this starter
+gatsby new my-ts-vscode-default https://github.com/jakenjarvis/gatsby-starter-ts-vscode-default
+```
 
 # Referenced
 
@@ -23,7 +40,15 @@ If you use styled-components, Emotion, Tailwind, etc., you need to add it.
 - https://www.gatsbyjs.com/docs/eslint/#how-to-use-eslint
 - https://github.com/gatsbyjs/gatsby/issues/15971
 
-## create-react-app
+## prettier
+
+- https://prettier.io/docs/en/integrating-with-linters.html
+
+## ESLint
+
+- https://eslint.org/docs/user-guide/configuring
+
+## create-react-app (eslint-config-react-app)
 
 - https://create-react-app.dev/docs/setting-up-your-editor/
 - https://github.com/facebook/create-react-app/blob/master/docusaurus/docs/adding-typescript.md
@@ -36,14 +61,6 @@ If you use styled-components, Emotion, Tailwind, etc., you need to add it.
 - https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md
 - https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md
 
-## prettier
-
-- https://prettier.io/docs/en/integrating-with-linters.html
-
-## ESLint
-
-- https://eslint.org/docs/user-guide/configuring
-
 ## TypeScript TSConfig
 
 - https://www.typescriptlang.org/tsconfig
@@ -54,10 +71,21 @@ If you use styled-components, Emotion, Tailwind, etc., you need to add it.
 - https://www.gatsbyjs.com/docs/unit-testing/
 - https://github.com/keplersj/jest-preset-gatsby
 
+# Other references
+
+## Helpful repository
+
+- https://github.com/tombo-gokuraku/gatsby-starter-styled-components-eslint-prettier-stylelint
+- https://github.com/denningk/gatsby-starter-typescript-jest
+- https://github.com/hppRC/gatsby-starter-hpp
+- https://github.com/hdorgeval/gatsby-starter-ts-hello-world
+
 ## Referenced Japanese articles, etc.
 
 - https://blog.ojisan.io/prettier-eslint-cli
 - https://tombomemo.com/gatsby-install-settings/
+- https://qiita.com/tags/gatsby
+- https://qiita.com/uehaj/items/1b7f0a86596353587466
 
 ## Discussion in Japanese about ESLint and eslint-config-react-app
 
@@ -70,6 +98,8 @@ Thanks! [@sadnessOjisan](https://github.com/sadnessOjisan)
 ---
 
 ---
+
+# Original README
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">

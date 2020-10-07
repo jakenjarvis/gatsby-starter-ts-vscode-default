@@ -3,6 +3,8 @@
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
     "msjsdiag.debugger-for-chrome",
-    "stylelint.vscode-stylelint"
+    "stylelint.vscode-stylelint",
+    "orta.vscode-jest",
+    "firsttris.vscode-jest-runner"
   ]
 }
