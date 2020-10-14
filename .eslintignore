@@ -1,0 +1,14 @@
+*.ico
+*.jpg
+*.json
+*.lock
+*.log
+*.md
+*.png
+*.svg
+*.txt
+.cache
+.git
+.gitignore
+node_modules
+public
